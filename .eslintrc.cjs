@@ -12,6 +12,7 @@ module.exports = {
         indent: [2, 4],
         "semi": "off",
         'import/extensions': 'off',
-        'no-console': 'off'
+        'no-console': 'off',
+        'no-nested-ternary:': 'off',
     },
 }
