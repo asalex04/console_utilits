@@ -19,7 +19,6 @@ const getDate = () => {
         console.log(moment().format())
     } else {
         const [period, col] = actArgs[0]
-        // eslint-disable-next-line no-nested-ternary
         cmd === 'current'
             ? console.log(dateFunctions[period])
             : cmd === 'add'

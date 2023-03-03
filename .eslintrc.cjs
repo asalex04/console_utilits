@@ -13,6 +13,8 @@ module.exports = {
         "semi": "off",
         'import/extensions': 'off',
         'no-console': 'off',
-        'no-nested-ternary:': 'off',
+        'no-nested-ternary': 'off',
+        'import/no-mutable-exports': 'off',
+        'no-unused-expressions': 'off'
     },
 }

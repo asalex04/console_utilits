@@ -8,7 +8,15 @@ This repository is created as an educational project
 $ npm install
 ```
 
-### Start app 
+### Start game
 ```
-$ game
+$ game 
+```
+### Start date
+```
+$ date 
+```
+### Start both
+```
+$ utils
 ```
