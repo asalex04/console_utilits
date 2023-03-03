@@ -1,5 +1,5 @@
 import gameEngine from '../index.js';
-import randomNumber from '../utilits.js';
+import randomNumber from '../utilits/getRandomNumber.js';
 
 const TASK = 'Загадано число в диапазоне от 0 до 100'
 

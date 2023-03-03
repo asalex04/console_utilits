@@ -1,18 +1,19 @@
 {
   "name": "console_utils",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple console utility. Study project",
   "main": "index.js",
   "type": "module",
   "bin": {
     "utils": "bin/utils.js",
+    "date": "bin/date.js",
     "game": "bin/game.js"
   },
   "scripts": {
     "lint": "npx eslint ."
   },
   "keywords": [],
-  "author": "",
+  "author": "asalex <arc04@mail.ru",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.35.0",
@@ -20,6 +21,8 @@
     "eslint-plugin-import": "^2.27.5"
   },
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "moment": "^2.29.4",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.7.1"
   }
 }
